@@ -1,0 +1,225 @@
+/* body {
+    background-color: #1a1a1d;
+  }
+  .tittle {
+    color: white;
+    text-align: center;
+  }
+  .container {
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px 1a1a1d;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 50px;
+  }
+  .container__btn {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    padding: 15px;
+    padding-top: 0px;
+    background-color: white;
+    width: 400px;
+  }
+  .container--form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    padding: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    width: 500px;
+    height: 260px;
+  }
+  button,
+  input[type="submit"] {
+    padding: 10px;
+    margin: 10px;
+    border-color: #1a1a1d;
+    text-align: center;
+    background-color: white;
+    color: #1a1a1d;
+    border-radius: 10px;
+  }
+  button:hover,
+  input[type="submit"]:hover {
+    color: white;
+    background-color: #1a1a1d;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #1a1a1d;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  td,
+  th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: darkgray;
+    color: black;
+  }
+  input[type] {
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    border: solid 1px grey;
+  }
+  input[radio] {
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .--table {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-top: 100px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 80%;
+    overflow: scroll;
+  }
+  #registerStudent {
+    display: none;
+  }
+  #studentUpdate {
+    display: none;
+  }
+  #deleteStudent {
+    display: none;
+  }
+  #getInformation {
+    width: 50px;
+    height: 40px;
+  }
+   */
+
+body {
+  background-color: rgb(124, 106, 226);
+  padding-top: 10px;
+}
+.container {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  left: 25%;
+  height: auto;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.container__form__text {
+  margin: 15px;
+  border-radius: 25px;
+  width: 80%;
+  height: 30px;
+  border: none;
+  border: 1px solid rgb(124, 106, 226);
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(124, 106, 226);
+}
+::placeholder {
+  color: rgb(124, 106, 226);
+  font-size: 20px;
+}
+.container__form {
+  margin-left: 40px;
+  padding: 5px;
+}
+.container__form__header {
+  text-align: center;
+  color: rgb(124, 106, 226);
+}
+.container__form__text:focus {
+  border-radius: 25px;
+  border: 4px solid rgb(124, 106, 226);
+}
+.age {
+  width: 40%;
+}
+.container__form__label {
+  color: rgb(124, 106, 226);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container__form__label {
+  margin: 5px;
+  cursor: pointer;
+}
+.area {
+  height: 100px;
+  text-align: left;
+  padding: 10px;
+  resize: none;
+}
+.radio {
+  height: -2em;
+}
+.container__form--btn {
+  margin: 10px;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: rgb(124, 106, 226);
+  border: 1px solid rgb(124, 106, 226);
+  background-color: white;
+  outline: none;
+}
+.container__form--btn:active {
+  background-color: rgb(124, 106, 226);
+  color: white;
+  cursor: pointer;
+}
+.container__form--btn:hover {
+  background-color: rgb(124, 106, 226);
+  color: white;
+  cursor: pointer;
+}
+
+.tittle {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.regNo {
+  width: 50%;
+}
+.container__delete {
+  padding: 20px;
+  display: none;
+}
+.table {
+  padding: 20px;
+  background-color: white;
+  width: 80%;
+  height: 400px;
+  border-radius: 25px;
+  margin: 5px;
+  overflow: auto;
+  align-items: center;
+  display: none;
+}
+table,
+tr,
+th,
+td {
+  border: 2px solid rgb(124, 106, 226);
+  padding: 5px;
+  border-collapse: collapse;
+  border-radius: px;
+}
